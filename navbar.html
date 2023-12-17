@@ -15,17 +15,17 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navigation text-white">
-        
+
         <div class="navbar-brand d-flex align-items-center">
           <a href="#" class="d-flex align-items-center text-decoration-none">
             <img class="img-fluid image" src="/foodlogo.jpg" alt="logo" />
             <span class="ms-2 d-md-none">
-              <span class="text-dark text-decoration-none fs-5 logo1">Foodz</span>
-              <span class="text-success fs-1">-Pk</span>
+              <span class="text-dark text-decoration-none fs-3 logo1">Foodz</span>
+              <span class="text-success fs-2">-Pk</span>
             </span>
             <span class="ms-2 d-none d-md-inline">
-              <span class="text-dark text-decoration-none fs-5 logo1">Foodz</span>
-              <span class="text-success fs-1">-Pk</span>
+              <span class="text-dark text-decoration-none fs-3 logo1">Foodz</span>
+              <span class="text-success fs-2">-Pk</span>
             </span>
           </a>
         </div>
@@ -40,12 +40,11 @@
             alt="menu">
         </button>
 
-      
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul
-            class="navbar-nav d-flex justify-content-around mb-2 mx-sm-auto mb-lg-0">
-            <li class="nav-item me-5">
+            class="navbar-nav d-flex justify-content-around mb-2 mx-sm-auto mb-lg-0 text-center">
+            <li class="nav-item me-5 ">
               <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item me-5">
@@ -79,7 +78,7 @@
 
           </ul>
           <button type="button"
-            class="btn btn-outline-primary me-2 d-none d-lg-block">Primary</button>
+            class="btn btn-outline-primary me-2 d-none d-lg-block">Order Now</button>
 
         </nav>
       </header>
@@ -103,5 +102,21 @@
     width: 50px; 
     border-radius:50%;
 }
-
+.navbar-nav .nav-item {
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-item:hover {
+    border-color: #201e1e;
+  }
+  
+  .dropdown-menu .dropdown-item {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
 </style>
